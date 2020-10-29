@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author:" content="Santa Baltmane">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.ico">
+    <title>Portfolio | Santa Baltmane</title>
+  </head>
+  <body>
+
+<!-- ----------------------------------NAVIGATION BAR____START -->
+    <header>
+      <a href="#" class="logo">Santa Baltmane</a>
+      <a class="display-none" href="#" class="logo">
+        <svg width="100" height="80" viewBox="0 0 204 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M127 12L230.923 92.25H23.077L127 12Z" fill="#7B68EE"/>
+          <rect x="59" y="65" width="136" height="76" fill="#7B68EE"/>
+          <path d="M99.976 159H57.928L36.76 140.712V128.04H44.392V137.256L60.808 151.224H97.096L113.944 137.256V122.568L103.576 113.784H52.024L36.76 100.824V76.344L58.36 58.2H100.408L121.576 76.344V88.296H113.944V79.8L97.384 65.832H61.096L44.392 79.8V97.08L54.76 106.008H106.168L121.576 118.968V140.856L99.976 159ZM206.528 159H134.528V58.2H206.528L213.584 75.048V89.16L199.616 108.744L213.584 128.04V142.008L206.528 159ZM205.952 76.488L201.344 65.832H142.16V105H192.992L205.952 86.712V76.488ZM205.952 130.488L192.992 112.776H142.16V151.224H201.344L205.952 140.712V130.488Z" fill="white"/>
+        </svg>
+      </a>
+      <!-- --------------------HIDDEN HAMBURGER START--------------- -->
+      <div class="absolute">
+        <div class="hamburger" onclick="clickHamburger(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+
+        </div>
+        <div class="dropdown-menu">
+          <ul class="flex-column">
+            <li><a class="nav-links" href="#about">About Me</a></li>
+            <li><a class="nav-links" href="#skills">Skills</a></li>
+            <li><a class="nav-links" href="#projects">Projects</a></li>
+            <li><a class="nav-links" href="#contact">Contact me</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- --------------------HIDDEN HAMBURGER END---------------- -->
+      <ul>
+        <li class="dissapears"><a href="#about">About Me</a></li>
+        <li class="dissapears"><a href="#skills">Skills</a></li>
+        <li class="dissapears"><a href="#projects">Projects</a></li>
+        <li class="dissapears"><a href="#contact">Contact me</a></li>
+        <div class="social">
+          <a class="social-a" href="https://github.com/SanctussBa" target="_blank"><img class="lighter" src="github.png" height="30"></a>
+          <a class="social-a"  href="https://www.linkedin.com/in/santa-baltmane" target="_blank"><img class="lighter" src="linkedin.png" height="30"></a>
+        </div>
+      </ul>
+
+
+    </header>
+<!-- -------------------------------------NAVIGATION BAR____END -->
+
+
+
+
+<!-- -------------------------------------SVG HELLO____START ----->
+    <section class="section content-center flex-column">
+      <div class="svg-container">
+        <svg width="858" height="214" viewBox="0 0 858 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M120.1 213V123.6H34.5V213H1V1H34.5V89.2H120.1V1H153.6V213H120.1ZM121.1 90.2H33.5V2H2V212H33.5V122.6H121.1V212H152.6V2H121.1V90.2ZM212.266 213L181.469 171.531V42.4693L212.266 1H314.869V35.1H228.884L215.269 54.2197V90.4H295.369V124.8H215.269V159.776L228.88 178.6H314.869V213H212.266ZM228.369 179.6L214.269 160.1V123.8H294.369V91.4H214.269V53.9L228.369 34.1H313.869V2H212.769L182.469 42.8V171.2L212.769 212H313.869V179.6H228.369ZM369.855 213L339.965 171.825V1H373.165V160.084L386.184 178.6H455.365V213H369.855ZM385.665 179.6L372.165 160.4V2H340.965V171.5L370.365 212H454.365V179.6H385.665ZM507.257 213L477.367 171.825V1H510.567V160.084L523.586 178.6H592.767V213H507.257ZM523.067 179.6L509.567 160.4V2H478.367V171.5L507.767 212H591.767V179.6H523.067ZM768.37 213H646.175L614.77 171.838V42.1621L646.175 1H768.37L799.17 42.1673V171.833L768.37 213ZM751.97 34.1H662.27L647.57 53.6V160.4L662.27 179.6H751.97L766.37 160.4V53.6L751.97 34.1ZM765.37 53.9292L751.465 35.1H662.768L648.57 53.9347V160.061L662.763 178.6H751.47L765.37 160.067V53.9292ZM827.172 213V173.2H857.072V213H827.172ZM646.67 212H767.87L798.17 171.5V42.5L767.87 2H646.67L615.77 42.5V171.5L646.67 212ZM828.172 212H856.072V174.2H828.172V212Z" stroke="#8D8D8D"/>
+        </svg>
+
+
+      </div>
+      <p id="quote"><b><q>Is it me you're looking for?</q></b><cite>  - Lionel Richie</cite><p>
+    </section>
+<!-- -------------------------------------SVG HELLO____END ------->
+
+
+
+<!-- ----------------------------SECTION ABOUT ME____START ------->
+    <section id="about" class="section">
+      <title class="title">About me</title>
+      <div class="about-me">
+        <span class="dot" >&#9728;</span>
+        <div class="about-content">
+          <div class="about-me-text background-tint">
+            <p class="about-me-p">I have educational background in <span class="highlight"> Economics and Business</span>. Professional background connected with <span class="highlight">Customer Serviss and Hospitality</span>.</p>
+            <p class="about-me-p">Couple years ago I discovered my passion and deepest interest into programming. I started to learn independently on my free time. More I learned, more I made myself sure that this is what I really <span class="highlight">love to do</span>. </p>
+            <p class="about-me-p">I am newbie with fresh <span class="highlight">'out-of-the-box' mindset</span>. As an <span class="highlight">artistic person</span> and <span class="highlight">self tough programmer</span> I combine diverse <span class="highlight">problem solving ability with unique <span class="highlight">creativity</span>.</p>
+            <p class="about-me-p">To become highly proffesional on what I love to do is my goal. </p>
+            <p class="about-me-p">I am independant learner and <span class="highlight">highly motivated</span>.</p>
+          </div>
+          <div class="about-me-pic">
+            <img class="about-img"  src="about.png" alt="hello">
+          </div>
+        </div>
+    </section>
+<!-- ------------------------------SECTION ABOUT ME____END ------->
+
+
+
+<!-- -------------------------------SECTION SKILLS____START ------->
+    <section id="skills" class="section">
+      <title class="title">Skills</title>
+      <div class="skills">
+        <span class="dot" >&#9728;</span>
+        <div class="skills-content">
+          <div class="about-me-pic">
+            <img class="about-img" src="skills.png" alt="hello">
+          </div>
+          <div class="skills-text background-tint">
+            <p><span class="color-purple">Back-End: </span>Python, JavaScript, Pyinstaller, tkInter, JSON, CSV, OOP</p>
+            <p><span class="color-purple">Front-End: </span>HTML5, CSS3, Sass, Bootstrap</p>
+            <p><span class="color-purple">Web Development: </span>Flask, Heroku</p>
+            <p><span class="color-purple">Databases: </span>SQLite, MySQL, PostgeSQL</p>
+            <p><span class="color-purple">Other Tehnologies/Tools: </span>Figma, Atom, Gimp, Jupyter Notebook, Git, Github</p>
+            <p id="cv"><a class="cv-link" href="sb.pdf">Download my CV</a></p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!-- -------------------------------SECTION SKILLS____END ------->
+
+
+
+
+<!-- -------------------------------SECTION PROJECTS____START ------->
+    <section id="projects" class="section auto-height">
+      <title class="title">Projects</title>
+
+
+          <!-- .................................Blog Project -->
+      <div class="projects">
+        <span class="dot" >&#9728;</span>
+        <div class="project-title flex-row center  background-tint">
+          <h1>Web Blog App</h1>
+        </div>
+
+        <div class="media-column-reverse">
+          <div class="project-pic">
+            <img class="about-img" src="sblog.gif" alt="hello">
+          </div>
+          <div class="projects-text flex-column  background-tint">
+            <p><span class="color-purple">Short description:</span>Typical blog web site. User can register and create own account with e-mail and password. Usert can write Blog stories (Title, date, content). User can choose profile picture from created gallery. User can delete and update own posts.</p>
+            <p><span class="color-purple">Used: </span>HTML5, CSS3, Sass, Python, Flask, Heroku, PostgeSQL.</p>
+            <div class="link-container flex-row">
+              <p><a class="link" href="https://santablogapp.herokuapp.com/" target="_blank">Visit Site</a></p>
+              <p class="left-padding"><a class="link" href="https://github.com/SanctussBa/santablogapp" target="_blank">Github</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="decoration"></div>
+      </div>
+
+          <!-- .................................Vacation Generator Project -->
+      <div class="projects">
+        <span class="dot" >&#9728;</span>
+        <div class="project-title flex-row center  background-tint">
+          <h1>Vacation Generator Web App</h1>
+        </div>
+
+        <div class="media-column">
+          <div class="projects-text flex-column  background-tint">
+            <p><span class="color-purple">Short description:</span>Vacation generator have specially selected list of holiday destinations in its own database. It is possible to select any destination from database randomly or filter destinations by continent and type of holiday. User can choose own holiday preference by using filter feature. One of sections offer top destinations worldwide. </p>
+            <p><span class="color-purple">Used: </span>HTML5, CSS3, JavaScript, Python, Flask, Heroku, PostgeSQL, Mailtrap.</p>
+            <div class="link-container flex-row">
+              <p><a class="link" href="https://vacation-generator.herokuapp.com/" target="_blank">Visit Site</a></p>
+              <p class="left-padding"><a class="link" href="https://github.com/SanctussBa/vacation-generator" target="_blank">Github</a></p>
+            </div>
+          </div>
+          <div class="project-pic">
+            <img class="about-img" src="vacation.gif" alt="hello">
+          </div>
+        </div>
+        <div class="decoration"></div>
+      </div>
+
+
+          <!-- .................................Data input Project -->
+      <div class="projects">
+        <span class="dot" >&#9728;</span>
+        <div class="project-title flex-row center  background-tint">
+          <h1>Data Input Web App</h1>
+        </div>
+        <div class="media-column-reverse">
+          <div class="project-pic">
+            <img class="about-img" src="data.gif" alt="hello">
+          </div>
+          <div class="projects-text flex-column  background-tint">
+            <p><span class="color-purple">Short description:</span>This web app allows to add different places, it has an option to add characteristics for place. After submission, it gives automatically generated text about place and its characteristics. It is possible to see all places and filter them. This site is experimental and used as study project. It is not connected to database, after session is over, added places dissapear.</p>
+            <p><span class="color-purple">Used: </span>HTML5, CSS3, JavaScript, Python, Flask, Heroku, SQLite</p>
+            <div class="link-container flex-row">
+              <p><a class="link" href="http://database-input.herokuapp.com/" target="_blank">Visit Site</a></p>
+              <p class="left-padding"><a class="link" href="https://github.com/SanctussBa/project1" target="_blank">Github</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="decoration"></div>
+      </div>
+
+      <!-- .................................Address Book Project -->
+      <div class="projects">
+        <span class="dot" >&#9728;</span>
+        <div class="project-title flex-row center  background-tint">
+          <h1>Address Book Desktop App</h1>
+        </div>
+        <div class="media-column">
+          <div class="projects-text flex-column  background-tint">
+            <p><span class="color-purple">Short description:</span>This is a Desktop application for any computer to use. All project is compiled into .exe application. Main features of this application is to add and save new Contacts. User can save Name, Phone number, Address and add notes for particular contact. User can see all list of contacts and sort them in alphabetic order.</p>
+            <p><span class="color-purple">Used: </span>Python, TkInter, PyInstaller(used to compile app into .exe file)</p>
+            <div class="link-container flex-row">
+              <p class="left-padding"><a class="link" href="#">Github</a></p>
+            </div>
+          </div>
+          <div class="project-pic">
+            <img class="about-img"  src="addressapp.gif" alt="Address App">
+          </div>
+        </div>
+        <div class="decoration"></div>
+      </div>
+
+
+      <!-- .................................Location Desktop Project -->
+      <div class="projects">
+        <span class="dot" >&#9728;</span>
+        <div class="project-title flex-row center  background-tint">
+          <h1>Location Saving App</h1>
+        </div>
+        <div class="media-column-reverse">
+          <div class="project-pic">
+            <img class="about-img" src="locations.gif" alt="hello">
+          </div>
+          <div class="projects-text flex-column  background-tint">
+            <p><span class="color-purple">Short description:</span>This is a desktop applicaton for any computer to use. This application is made to save different addresses and locations. They can be divided into categories like "Work", "Vacation", "Living" and "Other". It is possible to add new location by full address or just by city name. App can do filtration of locations and shows in map exact place of given location.</p>
+            <p><span class="color-purple">Used: </span>Python, Tkinter</p>
+            <div class="link-container flex-row">
+              <p><a class="link" href="locations.gif" target="_blank">See Gif</a></p>
+              <p class="left-padding"><a class="link" href="https://github.com/SanctussBa/Locator-app" target="_blank">Github</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="decoration"></div>
+      </div>
+
+
+      <!-- .................................Other Project -->
+      <div class="projects flex-column">
+        <span class="dot" >&#9728;</span>
+        <div class="project-title flex-row center  background-tint">
+          <h1>Other Projects</h1>
+        </div>
+        <div class="other-project-contents  project-title background-tint width-half">
+          <p><a  class="other-link" href="http://neverevertext.herokuapp.com/" target="_blank">Never Have I Ever Text Generator</a> This is one of my first web apps. Simply generates random "Never Have I Ever Text" from a file. </p>
+          <div class="other-link-container flex-row center">
+            <p><a class="other-link" href="never.gif" target="_blank">See Gif</a></p>
+            <p class="left-padding"><a class="other-link" href="https://github.com/SanctussBa/Never-have-I-ever-Game" target="_blank">Github</a></p>
+          </div>
+        </div>
+        <div class="other-project-contents  project-title  background-tint width-half">
+          <p><a  class="other-link" href="https://santa-baltmane.netlify.app/" target="_blank">Portfolio Web Site</a> This is my first portfolio web site I made.</p>
+          <div class="other-link-container flex-row center">
+            <p><a class="other-link" href="portfolio.gif" target="_blank">See Gif</a></p>
+            <p class="left-padding"><a class="other-link" href="https://github.com/SanctussBa/portfolio" target="_blank">Github</a></p>
+          </div>
+        </div>
+        <div class="other-project-contents  project-title  background-tint width-half">
+          <p><a  class="other-link" href="dictionary.gif" target="_blank">Dictionary Desktop App</a> Simple app where user types English word and gets a definition of it. JSON file is used as imported dictionary.</p>
+          <div class="other-link-container flex-row center">
+            <p><a class="other-link" href="dictionary.gif" target="_blank">See Gif</a></p>
+            <p class="left-padding"><a class="other-link" href="https://github.com/SanctussBa/dictionary" target="_blank">Github</a></p>
+          </div>
+        </div>
+        <div class="decoration"></div>
+      </div>
+
+    </section>
+<!-- -------------------------------SECTION PROJECTS____END ------->
+
+
+
+<!-- -------------------------------SECTION CONTACTS____START ------->
+  <section id="contact" class="section">
+    <div class="contacts">
+      <title class="title">Contact me</title>
+      <span class="dot" >&#9728;</span>
+      <div class="contacts-content">
+        <div class="contact-form">
+          <form class="" action="POST" data-netlify="true">
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name here...">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Your e-mail..">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="Write something.."></textarea>
+            <input type="submit" name="send" value="Send">
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- -------------------------------SECTION CONTACTS____END ------->
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left flex-row">
+        <p class="small"><a class="other-link" href="#about">About me</a></p>
+        <p class="small"><a class="other-link" href="#skills">Skills</a></p>
+      </div>
+      <a id="padding-right" href="#">
+        <svg width="100" height="80" viewBox="0 0 204 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M127 12L230.923 92.25H23.077L127 12Z" fill="#7B68EE"/>
+          <rect x="59" y="65" width="136" height="76" fill="#7B68EE"/>
+          <path d="M99.976 159H57.928L36.76 140.712V128.04H44.392V137.256L60.808 151.224H97.096L113.944 137.256V122.568L103.576 113.784H52.024L36.76 100.824V76.344L58.36 58.2H100.408L121.576 76.344V88.296H113.944V79.8L97.384 65.832H61.096L44.392 79.8V97.08L54.76 106.008H106.168L121.576 118.968V140.856L99.976 159ZM206.528 159H134.528V58.2H206.528L213.584 75.048V89.16L199.616 108.744L213.584 128.04V142.008L206.528 159ZM205.952 76.488L201.344 65.832H142.16V105H192.992L205.952 86.712V76.488ZM205.952 130.488L192.992 112.776H142.16V151.224H201.344L205.952 140.712V130.488Z" fill="white"/>
+        </svg>
+      </a>
+      <div class="footer-right">
+        <p class="small"><a class="other-link" href="#projects">Projects</a></p>
+        <p class="small"><a class="other-link" href="#contact">Contact me</a></p>
+      </div>
+
+    </div>
+
+
+  </footer>
+    <script>
+      window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      })
+      const dropDown = document.querySelector('.dropdown-menu');
+
+      function clickHamburger(x){
+        x.classList.toggle("change");
+        dropDown.classList.toggle("dropdown-menu-active");
+      }
+    </script>
+
+  </body>
+</html>
